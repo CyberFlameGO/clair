@@ -12,7 +12,7 @@ require (
 	github.com/klauspost/compress v1.13.6
 	github.com/ldelossa/responserecorder v1.0.2-0.20210711162258-40bec93a9325
 	github.com/mattn/go-sqlite3 v1.11.0 // indirect
-	github.com/prometheus/client_golang v1.9.0
+	github.com/prometheus/client_golang v1.11.1
 	github.com/quay/clair/config v1.0.0
 	github.com/quay/claircore v1.2.0
 	github.com/quay/zlog v0.0.0-20210113185248-ce16eed1dcec
