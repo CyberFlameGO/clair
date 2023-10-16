@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/go-stomp/stomp v2.0.6+incompatible
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.9
 	github.com/google/go-containerregistry v0.6.0
 	github.com/google/uuid v1.2.0
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
@@ -22,17 +22,20 @@ require (
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80
 	github.com/ugorji/go/codec v1.2.4
 	github.com/urfave/cli/v2 v2.3.0
-	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.16.0
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.16.0
-	go.opentelemetry.io/otel v0.16.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.44.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.44.0
+	go.opentelemetry.io/otel v1.18.0
 	go.opentelemetry.io/otel/exporters/stdout v0.16.0
 	go.opentelemetry.io/otel/exporters/trace/jaeger v0.16.0
+	go.opentelemetry.io/otel/internal/metric v0.27.0 // indirect
+	go.opentelemetry.io/otel/oteltest v0.20.1 // indirect
 	go.opentelemetry.io/otel/sdk v0.16.0
+	go.opentelemetry.io/otel/trace v1.18.0
 	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	gopkg.in/square/go-jose.v2 v2.5.1
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 replace github.com/quay/clair/config => ./config
